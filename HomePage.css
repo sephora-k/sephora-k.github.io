@@ -1,0 +1,128 @@
+.container{
+     width: 900px;
+     margin-top: 20px;
+     margin-left: 85px;
+	 margin-right: 25px;
+	 padding: 10px;	 
+	 overflow: auto;
+}
+
+.pageContent{
+     max-width: 900px;
+     margin: auto;
+     background: #B3002D;
+	 padding: 10px; 
+}
+
+		/*HEADERS*/
+.header{ 
+	 float: left;
+	 /*position: fixed; */
+
+}
+
+        /*NAVIGATION BAR*/
+.navigation{
+	 float: left;
+	 width: 100%;
+	 margin: 0;
+}
+
+ul{
+	 list-style-type: none;
+	 /*position: fixed;*/
+	 top: 125px;  /*increase px to lower bar*/
+	 width: 100%;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden; /* look up overflow (auto or hidden)*/
+	 background-color: #333;
+}
+
+li{ 
+     float: left;
+}
+
+li a{
+     display: block;
+	 color: white;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration: none;
+} 
+
+li a:hover{
+	 background-color: #111
+}
+
+.content{
+	 float: left;
+	 margin: 20px;
+	 padding: 20px;
+	 width: 700px;
+	 color: transparent;
+}
+
+.Paris{
+	 display: block;
+	 margin-top: 90px;
+	 margin-left: auto;
+     margin-right: auto;
+     width: 80%;	 
+	 overflow: visible;
+}
+
+.column{
+	 float: left;
+     width: 33.33%;	 
+}
+
+.rows:after{
+     content: "";	
+	 display: table; /* or block */
+	 clear: both;
+}
+
+.prego1{
+	 width: 80%;
+	 margin-top: 85px;
+	 height: 205px;
+}
+
+.prego2{
+	 width: 80%;
+	 margin-top: 85px;
+	 height: 205px;
+}
+
+.prego3{
+	 width: 80%;
+	 margin-top: 85px;
+	 height: 205px;
+}
+
+.button{
+	 border: none;
+	 position: center;
+	 outline: 0;
+	 display: inline-block;
+	 padding: 10px 15px;
+	 color: black;
+	 text-align: center;
+	 	
+}
+
+.button:hover{
+	 background-color:white;
+	 color: white; 
+}
+
+.footer{
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+	 background-color: #333;
+	 color: white;
+	 text-align: center;
+}
